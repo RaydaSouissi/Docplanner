@@ -1,0 +1,638 @@
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    float: left;
+}
+
+.o9reb {
+    margin: 0 6em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    z-index: 15;
+}
+
+.mainDiv {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-nav {
+    line-height: 1.3em;
+    display: flex;
+    justify-content: c;
+}
+
+.logo-docPlanner {
+    -webkit-font-smoothing: antialiased;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 2.125rem;
+    line-height: 68px;
+    color: #3d83df;
+    box-sizing: inherit;
+    border: 0;
+    max-width: 100%;
+    width: 268px;
+    height: 33px;
+}
+
+.main-nav {
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    z-index: 15;
+    padding: 0 20px 0;
+}
+
+li a {
+    display: block;
+    color: #ABABAB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+.sideNav {
+    display: flex;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.brandLogoList {
+    width: 590px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.brandLogoList a:hover {
+    color: #00b39b;
+}
+
+.brandLogoList li {
+    height: 38px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 38px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+
+.section-inner {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    box-sizing: inherit;
+    display: block;
+    zoom: 1;
+    justify-content: center;
+    margin: 2.0625rem auto 3.75rem
+}
+
+.lead {
+    margin: 2.0625rem auto 3.75rem;
+}
+
+.lead h1 {
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+    box-sizing: inherit;
+    margin: 1em 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+}
+
+.section-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.logo-area h1 {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+div.col-2 {
+    display: flex;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+}
+
+figure {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    display: block;
+    width: 100%;
+    transition: all .25s ease .25s;
+    transition-delay: .6s;
+    opacity: 1;
+    transform: translate(0);
+}
+
+.selectDiv img {
+    width: 395px;
+    height: 248px;
+    min-width: 395px;
+    box-sizing: inherit;
+}
+
+.doctorScreen img {
+    height: 248px;
+    padding-left: 15%;
+    width: 397px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.service-items-visible {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    float: left;
+    min-height: 1px;
+    width: 50%;
+    transition: all .35s ease 0s;
+    transform: translate(0);
+    opacity: 1;
+    margin: 12.8px 12.8px 0;
+}
+
+.client-item {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+    box-sizing: inherit;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #3D83DF;
+    justify-content: space-evenly;
+    margin: 12.8px 12.8px 0;
+}
+
+.descriptionSection {
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.descriptionDiv {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.statSection {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    display: block;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    width: 1222px;
+    height: 600px;
+}
+
+.statDiv {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    box-sizing: inherit;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.statDivHeader {
+    width: 50%;
+    height: 200px;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    min-height: 1px;
+    padding: 10px;
+    margin-top: 2em;
+}
+
+.statDivHeader h1 {
+    line-height: 1.3;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 0;
+}
+
+.statDivHeader p {
+    margin: 1.6em 0;
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+}
+
+.statDivColumns {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.statDivItemColumn1 {
+    width: 50%;
+    height: 70%;
+    align-self: flex-end;
+}
+
+.statDivItemColumn2 {
+    width: 50%;
+    height: 70%;
+}
+
+.statDivItems {
+    margin: 10px;
+    /*  padding: 10px; */
+    min-height: 218px;
+    max-width: 228px;
+}
+
+.statDivItemsInside {
+    padding: 10px;
+    background: #fff;
+}
+
+.statDivItems:first-child {
+    margin-top: 35px;
+}
+
+.statDivItemsTop {
+    margin: 0px 10px 0px;
+    /*  padding: 10px; */
+    max-height: 218px;
+    max-width: 228px;
+}
+
+.statDivItems:last-child {
+    margin-top: -10px;
+}
+
+
+/* .statDivItems p {
+    width: 35px;
+    height: 40px;
+    margin-left: 90px;
+} */
+
+.statDivItems h3 {
+    line-height: 1.3;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .3px;
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.statDivItems p {
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    text-align: center;
+    font-size: .8125em;
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.nidham {
+    margin: 10px 70px 10px;
+    padding: 0 20px 0;
+}
+
+.service-two-row {
+    display: flex;
+    padding: 0 20px 0;
+}
+
+.select-style {
+    height: 41px;
+    width: 180px;
+    line-height: 1.3;
+    box-sizing: inherit;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #333;
+    background: #fff;
+    font-weight: 600;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    transition: all .2s ease 0s;
+    cursor: pointer;
+}
+
+#domain-switcher {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 3.5em 0 1.5em;
+    height: 40px;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+h2:first-child {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .3px;
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0, 0%, 100%, .7);
+    /* transition: all .25s ease .25s;
+    transition-delay: .25s;
+    opacity: 1;
+    transform: translate(0); */
+}
+
+.service-two-row h1 {
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    margin: 1em 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+    transition: all .25s ease .25s;
+    transition-delay: .3s;
+    opacity: 1;
+    transform: translate(0);
+}
+
+.section-second {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    display: block;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+    margin: 3.75rem auto 2.5rem;
+}
+
+.brandSection {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    justify-content: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    zoom: 1;
+}
+
+.brandDiv {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand h1 {
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    letter-spacing: .3px;
+    padding-top: 6px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brandLogo {
+    width: 66%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brandLogo a {
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    font-size: 1rem;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ABABAB;
+    outline: 0;
+    transition: all .2s ease 0s;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.screenSection {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0;
+}
+
+.screenDiv {
+    width: 85%;
+    display: flex;
+}
+
+.clientScreen {
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    padding: 10px;
+    width: 50%;
+    opacity: 1;
+    max-width: 489.59px;
+}
+
+.patientScreen {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #747474;
+    border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    overflow: hidden;
+    background: #00ccb1;
+}
+
+.patientScreen h1,
+.doctorScreen h1 {
+    box-sizing: inherit;
+    margin: 1em 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+    /* transition: all .25s ease .25s;
+    transition-delay: .3s;
+    opacity: 1;
+    transform: translate(0); */
+}
+
+.selectDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: max-content;
+}
+
+.doctorScreen {
+    font-size: 16px;
+    line-height: 1.3;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    background: #3d83df;
+    max-width: 489.59px;
+    overflow: hidden;
+    /* width: max-content; */
+}
+
+.brands-logos {
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 0;
+    width: 67%;
+    list-style: none;
+}
+
+.main-menu .active {
+    color: #00b39b;
+}
+
+.main-menu li a:hover {
+    color: #00b39b;
+}
+
+.main-menu li {
+    padding: 0 9px;
+}
+
+.col-2 p {
+    width: 50%;
+    padding: 0 10px 40px 10;
+    margin: 16px 10px 10px 10px;
+}
+
+.logo a {
+    width: 268px;
+    height: 67.27px;
+}
